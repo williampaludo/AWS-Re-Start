@@ -160,22 +160,22 @@ Durante nosso trabalho, tivemos que assumir papéis importantes para o desenvolv
 * Engenheiro(a) de Dados:
 [Ana Beatriz Santos](https://www.linkedin.com/in/anabsantoss/)
 
-* Gerente de Projetos
+* Gerente de Projetos:
 [Danilo dos Santos](https://www.linkedin.com/in/daniloasc/)
 
-* Especialista em Banco de Dados
+* Especialista em Banco de Dados:
 [Gabriel Castilho](https://www.linkedin.com/in/gabriel-castilho-8781492b0/)
 
-* Analista de Sistemas
+* Analista de Sistemas:
 [Luiz Santos](https://www.linkedin.com/in/luiz-santos7/)
 
-* Especialista em Custos e Otimização Cloud
+* Especialista em Custos e Otimização Cloud:
 [Milena Carvalho](https://www.linkedin.com/in/milenatech/)
 
-* Administradora Cloud
+* Administradora Cloud:
 [Raquel Dias](https://www.linkedin.com/in/raqueldiasds/)
 
-* Arquiteto de Soluções
+* Arquiteto de Soluções:
 [William Paludo](https://www.linkedin.com/in/william-paludo/)
 
 
