@@ -44,78 +44,96 @@ Pensando neste requisito utilizamos os serviços:
 Mantém registros das chamadas de API feitas na conta.
 
 * [![Arch-AWS-Lambda-32.png](https://i.postimg.cc/Wz1bH1FR/Arch-AWS-Lambda-32.png)](https://postimg.cc/CB9gZYsJ) AWS Lambda
+
 O AWS Lambda é um serviço de computação sem servidor que permite executar código sem a necessidade de provisionar e gerenciar servidores.
 Será utilizado para processar a lógica de negócios, como gestão de carrinho, controle de estoque e processamento de pedidos.
 
 * [![Arch-Amazon-API-Gateway-32.png](https://i.postimg.cc/mkPW9z1r/Arch-Amazon-API-Gateway-32.png)](https://postimg.cc/SYbPFKr0) API Gateway
+
 Intermedia a comunicação entre o frontend e as aplicações lambdas.
 Irá expor APIs RESTful seguras para operações como adicionar itens ao carrinho, finalizar compra e consultar pedidos.
 
 * [![Arch-Amazon-Cloud-Watch-32.png](https://i.postimg.cc/pr3bJWKJ/Arch-Amazon-Cloud-Watch-32.png)](https://postimg.cc/LgkbHMCJ) Amazon CloudWatch
+
 Monitoramento e gerencia de recursos, ajudando a operar e melhorar continuamente os processos, oferece uma visão detalhada do desempenho operacional dos recursos AWS.
 
 ### SEGURANÇA
 Princípio de proteção de informações e sistemas, utilizamos os serviços:
 
 * [![Arch-AWS-WAF-32.png](https://i.postimg.cc/1t2sJrQF/Arch-AWS-WAF-32.png)](https://postimg.cc/TLVzPmh2) WAF
+
 O Web Application Firewall irá minimizar riscos e proteger tanto a aplicação quanto os dados do e-commerce, garantindo um ambiente seguro e confiável para os usuários e para os administradores.
 
 * [![Arch-Amazon-Cognito-32.png](https://i.postimg.cc/0QWqrdQ3/Arch-Amazon-Cognito-32.png)](https://postimg.cc/phFS6jKY) Amazon Cognito
+
 Irá gerenciar a autenticação e autorização dos usuários, permitindo que os clientes se registrem, façam login e acessem suas contas com segurança.
 
 * [![Arch-AWS-Identity-and-Access-Management-32.png](https://i.postimg.cc/wjQxgNXK/Arch-AWS-Identity-and-Access-Management-32.png)](https://postimg.cc/3kWQZdf9) Role do IAM
+
 Implementa um controle robusto de segurança, garantindo que cada recurso ou serviço da AWS tenha permissões precisas para executar apenas ações necessárias, seguindo o princípio de menor privilégio.
 
 ### CONFIABILIDADE
 Princípio de recuperação rápida de falhas, utilizamos os serviços:
 
 * [![Arch-Amazon-Route-53-32.png](https://i.postimg.cc/qvVHt7Jk/Arch-Amazon-Route-53-32.png)](https://postimg.cc/Xp8zm4Bh) Amazon Route 53
+
 Gerencia o DNS e facilita o roteamento de tráfego para o site.
 Irá garantir uma navegação estável e confiável para os usuários.
 
 * [![Arch-Amazon-Virtual-Private-Cloud-32.png](https://i.postimg.cc/Nj6qRwFR/Arch-Amazon-Virtual-Private-Cloud-32.png)](https://postimg.cc/zyGc16nf) amazon VPC
+
 O Amazon VPC (Virtual Private Cloud) é um serviço que permite criar redes isoladas logicamente na AWS.<br>
 [![Public-subnet-32.png](https://i.postimg.cc/6QH9GNbY/Public-subnet-32.png)](https://postimg.cc/WDkRQxvk) As subredes públicas são para os recursos que precisam de acesso à internet. <br>
 [![Private-subnet-32.png](https://i.postimg.cc/HkgWqz74/Private-subnet-32.png)](https://postimg.cc/hf2qx9sf) As subredes privadas permitem proteger recursos que não devem estar diretamente acessíveis na internet.
 
 * [![GLOBALTABLES-DYNAMO-32.png](https://i.postimg.cc/1RFQy6SW/GLOBALTABLES-DYNAMO-32.png)](https://postimg.cc/nMn5kXC7) DynamoDB Global Tables
+
 Irá garantir alta disponibilidade, baixa latência e consistência dos dados entre diferentes regiões geográficas.
 
 ### EFICIÊNCIA DE PERFORMANCE
 
 Princípio de alocação eficiente de recursos e monitoramento contínuo, utilizamos os serviços:
 * [![Arch-Amazon-Cloud-Front-32.png](https://i.postimg.cc/vBHsQSQf/Arch-Amazon-Cloud-Front-32.png)](https://postimg.cc/kVZZssRg) Amazon CloudFront
+
 Rede de entrega de conteúdo (CDN).
 Irá distribuir o conteúdo do S3 de maneira rápida e segura para os clientes em várias regiões, reduzindo a latência e otimizando a experiência do usuário.
 
 * [![Arch-Amazon-Simple-Storage-Service-32.png](https://i.postimg.cc/J4BW4XW6/Arch-Amazon-Simple-Storage-Service-32.png)](https://postimg.cc/nCZW3CrB) Amazon S3 (Simple storage service)
+
 Discos rígidos na nuvem:
 Armazena um grande volume de dados estáticos, como imagens de produtos, vídeos e arquivos de log, proporcionando alto desempenho.
 * [![Res-Amazon-Dynamo-DB-Amazon-Dynamo-DB-Accelerator-48.png](https://i.postimg.cc/MTvz7rhx/Res-Amazon-Dynamo-DB-Amazon-Dynamo-DB-Accelerator-48.png)](https://postimg.cc/VrPy14fH) DynamoDB Accelerator (DAX)
+
 Será utilizado para aumentar a performance de leitura do Dynamo DB, reduzindo a latência das consultas, servindo como cache especialmente em operações de leitura intensiva.
 
 ### OTIMIZAÇÃO DE CUSTOS
 Princípio criado para evitar custos desnecessários, utilizamos os serviços:
 
 * [![Arch-AWS-Backup-32.png](https://i.postimg.cc/wB9KVbRZ/Arch-AWS-Backup-32.png)](https://postimg.cc/w14bx2VQ) Amazon S3 Backup
+
 Garante um uso eficiente de armazenamento e reduz custos operacionais.
 
 * [![Arch-AWS-Lambda-32.png](https://i.postimg.cc/Wz1bH1FR/Arch-AWS-Lambda-32.png)](https://postimg.cc/CB9gZYsJ) AWS Lambda
+
 Pagamento por uso, reduzindo custos ao executar códigos apenas quando necessário.
 
 * [![Arch-Amazon-Dynamo-DB-32.png](https://i.postimg.cc/Wpyvvnxq/Arch-Amazon-Dynamo-DB-32.png)](https://postimg.cc/Bt2y5xSJ) DynamoDB
+
 Solução de banco de dados NoSQL altamente escalável, gerenciada e sem servidores.
 
 * [![Res-AWS-Backup-Database-48.png](https://i.postimg.cc/5NqWCV6L/Res-AWS-Backup-Database-48.png)](https://postimg.cc/mtD5vK3g) Backup Database
+
 Permite que a aplicação recupere de falhas de maneira rápida e eficiente, minimizando os custos com o tempo de atividade e recuperação de desastres.
 
 ### SUSTENTABILIDADE
 
 Princípio que visa a minimização dos impactos ambientais, utilizamos os serviços:
 * [![Arch-Amazon-Simple-Storage-Service-32.png](https://i.postimg.cc/J4BW4XW6/Arch-Amazon-Simple-Storage-Service-32.png)](https://postimg.cc/nCZW3CrB) Amazon S3 (Simple storage service)
+
 Armazenamento eficiente que pode ser otimizado para reduzir o consumo de energia.
 
 * [![Arch-AWS-Lambda-32.png](https://i.postimg.cc/Wz1bH1FR/Arch-AWS-Lambda-32.png)](https://postimg.cc/CB9gZYsJ) AWS Lambda 
+
  Eficiência Energética ao executar código apenas quando necessário, reduzindo o consumo de recursos.
 
 ## SOLUÇÃO DE ARQUITETURA
