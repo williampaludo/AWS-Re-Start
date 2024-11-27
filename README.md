@@ -5,7 +5,7 @@
 [![dataHub.png](https://i.postimg.cc/jSQ11SRS/dataHub.png)](https://postimg.cc/xX8gJYkw)
 
 
-## OBJETIVO  
+## OBJETIVO 
 - Evoluir a infraestrutura da startup Nova Tech, priorizando a robustez e a escalabilidade de suas aplicações de e-commerce, com ênfase na **otimização e gerenciamento de bancos de dados na AWS.**
 
 - Com um aporte inicial de até $10.000, planejamos investimentos estratégicos para fortalecer a base tecnológica.
@@ -83,8 +83,13 @@ Irá garantir uma navegação estável e confiável para os usuários.
 * [![Arch-Amazon-Virtual-Private-Cloud-32.png](https://i.postimg.cc/Nj6qRwFR/Arch-Amazon-Virtual-Private-Cloud-32.png)](https://postimg.cc/zyGc16nf) amazon VPC
 
 O Amazon VPC (Virtual Private Cloud) é um serviço que permite criar redes isoladas logicamente na AWS.<br>
-* [![Public-subnet-32.png](https://i.postimg.cc/6QH9GNbY/Public-subnet-32.png)](https://postimg.cc/WDkRQxvk) As subredes públicas são para os recursos que precisam de acesso à internet. <br>
-* [![Private-subnet-32.png](https://i.postimg.cc/HkgWqz74/Private-subnet-32.png)](https://postimg.cc/hf2qx9sf) As subredes privadas permitem proteger recursos que não devem estar diretamente acessíveis na internet.
+* [![Public-subnet-32.png](https://i.postimg.cc/6QH9GNbY/Public-subnet-32.png)](https://postimg.cc/WDkRQxvk) Sub-rede pública
+ 
+As subredes públicas são para os recursos que precisam de acesso à internet. <br>
+
+* [![Private-subnet-32.png](https://i.postimg.cc/HkgWqz74/Private-subnet-32.png)](https://postimg.cc/hf2qx9sf) Sub-rede privada
+ 
+As subredes privadas permitem proteger recursos que não devem estar diretamente acessíveis na internet.
 
 * [![GLOBALTABLES-DYNAMO-32.png](https://i.postimg.cc/1RFQy6SW/GLOBALTABLES-DYNAMO-32.png)](https://postimg.cc/nMn5kXC7) DynamoDB Global Tables
 
