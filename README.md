@@ -39,6 +39,7 @@ Foca na execução e monitoramento de sistemas e na melhoria contínua.
 Pensando neste requisito utilizamos os serviços:
 
 * [![Arch-AWS-Cloud-Trail-32.png](https://i.postimg.cc/PqygFzmx/Arch-AWS-Cloud-Trail-32.png)](https://postimg.cc/cKKkv3ky) Amazon CloudTrail
+
  Registra atividade da conta AWS, capturando eventos e ações realizadas pelos usuários, funções IAM e outros serviços. 
 Mantém registros das chamadas de API feitas na conta.
 
