@@ -5,7 +5,7 @@
 [![dataHub.png](https://i.postimg.cc/jSQ11SRS/dataHub.png)](https://postimg.cc/xX8gJYkw)
 
 
-## OBJETIVO 
+## OBJETIVO  
 - Evoluir a infraestrutura da startup Nova Tech, priorizando a robustez e a escalabilidade de suas aplicações de e-commerce, com ênfase na **otimização e gerenciamento de bancos de dados na AWS.**
 
 - Com um aporte inicial de até $10.000, planejamos investimentos estratégicos para fortalecer a base tecnológica.
